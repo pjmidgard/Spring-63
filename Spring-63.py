@@ -174,7 +174,7 @@ class compression:
                             
                                 blockDR=700
 
-                      
+                        #print(namezD)
                         
 
                         countraz=0
@@ -465,7 +465,7 @@ class compression:
                                                 	  	z=z+1
                                                 
                                                 
-                                                wer=szx+wer
+                                                #wer=szx+wer
                                                 n = int(wer, 2)
                                         
                                                 qqwslenf=len(wer)
@@ -494,6 +494,7 @@ class compression:
                                             eo=eo+namezD
                                             takebit2=sda[el:eo]
                                             takebitdw2=int(takebit2, 2)
+                                            
                                             
                                             
                                             el=eo
@@ -542,7 +543,7 @@ class compression:
                                             
                                             #print(cvz)
                                             cvz2=cvz
-                                            for p in range(blockw+1):
+                                            while cvz2!=0:
                                                 
                                                 cvz2=cvz//virationc
                                                 
@@ -558,8 +559,12 @@ class compression:
                                                 szxw2=szxw2+cvz4
                                                 
                                                 if takebitdw2==cvz5:
+                                                        
                                                         cvz5=namezD2
                                                         
+                                                        
+                                                        
+                                                #print(cvz5)     
                                                 
                                                 szxw3=bin(cvz5)[2:]
                                                 lenf=len(szxw3)
@@ -645,8 +650,11 @@ class compression:
 
                         namezD = int(input("Please, enter Deep? "))
 
+
+                        
+
                         if namezD==13:
-                            namezD=18
+                            namezD=19
                         
                         if namezD==12:
                             namezD=18
@@ -1011,7 +1019,7 @@ class compression:
                                         lenf=len(t)
                                         #print(lenf)
                                         
-                                        wer=wer+t
+                                        wer=wer+szx+szxt
                                        
                                         szx=""  
                                         if lenfg==0:
@@ -1056,29 +1064,49 @@ class compression:
                                         
                                         if virationc!=byteb:
                                                 byteb=numbers[p]
-                                                
                                                 ghj=byteb
+
+                                                qfl=qfl+1
+                                            
+                                                bnk=1
+                                            
+                                                bnkd=1        
+                                            
+                                             
+                                                if ghj==virationc:
+                                                    raise SystemExit 
+                                            
+                                                ghjd=ghj*(virationc**bnkw)
+                                              
+                                          
+                                                bnkw=bnkw-1
+                                            
+                                                cvz=cvz+ghjd
+                                                
+                                                
                                         if virationc==byteb:
                                                 byteb=notexist
                                                 
+                                                
                                                 ghj=byteb
+                                                #print(ghj)
                                                
-                                        qfl=qfl+1
-                                        
-                                        bnk=1
-                                        
-                                        bnkd=1        
-                                        
-                                         
-                                        if ghj==virationc:
-                                            raise SystemExit 
-                                        #print(ghj)
-                                        ghjd=ghj*(virationc**bnkw)
-                                          
-                                      
-                                        bnkw=bnkw-1
-                                        
-                                        cvz=cvz+ghjd
+                                                qfl=qfl+1
+                                                
+                                                bnk=1
+                                                
+                                                bnkd=1        
+                                                
+                                                 
+                                                if ghj==virationc:
+                                                    raise SystemExit 
+                                                
+                                                ghjd=ghj*(virationc**bnkw)
+                                                  
+                                              
+                                                bnkw=bnkw-1
+                                                
+                                                cvz=cvz+ghjd
                                        
                                     
                                         
