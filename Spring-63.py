@@ -1074,27 +1074,8 @@ class compression:
                                                 bnkd=1        
                                             
                                              
-                                                if ghj==virationc:
-                                                    wer="01111111"+sda
-                                                    lenf=len(wer)
-                                              
-                                                    lenf=len(szx)                      
-                                                    szx=""        
-                                                    wer="0b"+wer
-                                                    n = int(wer, 2)
-                                                    qqwslenf=len(wer)
-                                                    qqwslenf=(qqwslenf/8)*2
-                                                    qqwslenf=str(qqwslenf)
-                                                    qqwslenf="%0"+qqwslenf+"x"
-                                                    jl=binascii.unhexlify(qqwslenf % n)
-                                                    sssssw=len(jl)
-                                                    with open(namea, "ab") as f2ww:             
-                                                        f2ww.write(jl)
-                                                        
-                                                        x2 = time()
-                                                        x3 = x2-x
-                                                    return print(x3)
-                                                    raise SystemExit 
+                                             
+                                                    
                                             
                                                 ghjd=ghj*(virationc**bnkw)
                                               
@@ -1138,9 +1119,12 @@ class compression:
                                                         
                                                         x2 = time()
                                                         x3 = x2-x
-                                                    return print(x3)
+                                                        return print(x3)
+                                                    
+
+                                                   
                                        
-                                                    raise SystemExit
+                                                
 
                                                 
                                                 
