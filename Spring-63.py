@@ -973,6 +973,7 @@ class compression:
                                    
                                     acvb=lenfg-1
                                     notexist=k[0]
+                                    xx=1
                                     #print(notexist)
                                     
                                     if notexist>virationc or notexist<0:
